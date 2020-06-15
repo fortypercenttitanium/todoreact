@@ -18,7 +18,6 @@ export default class NewTodo extends Component {
 		document.querySelector(".modal-title-input").value = "";
 		document.querySelector(".modal-desc-input").value = "";
 		document.querySelector(".modal-due-date-input").value = "";
-		document.querySelector(".modal-priority-input").value = "";
 	};
 
 	render() {

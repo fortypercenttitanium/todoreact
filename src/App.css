@@ -24,8 +24,16 @@ input, select, textarea {
   padding: 3px;
 }
 
-.modal-title-input, .modal-desc-input, .modal-due-date-input, .modal-priority-input {
+.modal-title-input, .modal-desc-input {
   width: 70%;
+}
+
+.modal-due-date-input, .modal-priority-input {
+  text-align: center;
+}
+
+.modal-priority-input {
+  min-width: 7rem;
 }
 
 .description-input {
@@ -90,6 +98,7 @@ header {
   display: -ms-grid;
   display: grid;
   width: 20%;
+  max-width: 18rem;
   min-width: 10rem;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
@@ -188,11 +197,13 @@ header {
   }
   .todo-container {
     width: 40%;
-    margin: 0.6rem 0.1rem;
+    max-width: 10rem;
+    margin: 0.6rem 0.3rem;
     padding: 0 0.5rem;
   }
   .todo-container > * {
     font-size: 0.8rem;
+    margin: 0.5rem;
   }
   .todo-container > h1 {
     font-size: 1.2rem;
