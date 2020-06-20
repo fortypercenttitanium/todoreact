@@ -1,9 +1,7 @@
 {
   "short_name": "Todo List",
   "name": "Todo List React Version",
-  "icons": [
-    
-  ],
+  "icons": [],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
